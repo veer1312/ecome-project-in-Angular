@@ -1,0 +1,145 @@
+{
+  "seller": [
+    {
+      "name": "Biplab Kumar Nayak",
+      "email": "rajbiplabi@gmail.com",
+      "password": "abc@123",
+      "id": 1
+    },
+    {
+      "name": "Hrithik Roshan",
+      "email": "hrithik@gmail.com",
+      "password": "abc@123",
+      "id": 2
+    },
+    {
+      "name": "Biplab Kumar Nayak",
+      "email": "mmm123@gmail.com",
+      "password": "abc@123",
+      "id": 3
+    },
+    {
+      "name": "jasmin",
+      "email": "jasmin@gmail.com",
+      "password": "abc@123",
+      "id": 5
+    }
+  ],
+  "products": [
+    {
+      "name": "iphone 14 Pro Max",
+      "price": "150000",
+      "color": "Black",
+      "category": "Mobile",
+      "description": "chizz badhiaa hai..par kharcha bahat hai.",
+      "image": "https://fdn2.gsmarena.com/vv/pics/apple/apple-iphone-14-pro-max-1.jpg",
+      "id": 1
+    },
+    {
+      "name": "Nike jordan",
+      "price": 16000,
+      "color": "white",
+      "category": "shoe",
+      "description": "Pura ghar jayenga tera",
+      "image": "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/cf4489be-82ce-4583-a43a-5879dfbe356a/tatum-1-st-louis-pf-basketball-shoes-LDFvBJ.png",
+      "id": 2
+    },
+    {
+      "name": "Hp Laptop",
+      "price": 80000,
+      "color": "White",
+      "category": "Loptop",
+      "description": "kuchh Achha kaam akro ..life mai kuchh achha karo..",
+      "image": "https://5.imimg.com/data5/EE/RS/BP/SELLER-48135069/hp-laptop-500x500.jpg",
+      "id": 3
+    },
+    {
+      "name": "R15 V3",
+      "price": 250000,
+      "color": "Black",
+      "category": "Bike",
+      "description": "A giant Racing machin",
+      "image": "https://img.indianautosblog.com/resize/750x-/2021/01/19/2021-yamaha-r15-black-indonesia-ebf1.png",
+      "id": 4
+    },
+    {
+      "name": "Rolex Watch",
+      "price": 20000,
+      "color": "Gold",
+      "category": "Watch",
+      "description": "beautiful watch",
+      "image": "https://5.imimg.com/data5/RM/NV/XB/ANDROID-29418413/product-jpeg-500x500.jpg",
+      "id": 5
+    },
+    {
+      "name": "MB Isolate Preotein",
+      "price": 6000,
+      "color": "White ",
+      "category": "Suplement",
+      "description": "It will boot yourb body SStamina and help you to increase your muscles",
+      "image": "https://onemg.gumlet.io/l_watermark_346,w_480,h_480/a_ignore,w_480,h_480,c_fit,q_auto,f_auto/ejyxrtrjmacan8fgn4ld.jpg",
+      "id": 6
+    },
+    {
+      "name": "jasmin oil",
+      "price": 100,
+      "color": "blue",
+      "category": "oil",
+      "description": "its a very good oi8l",
+      "image": "data:image/jpeg;base64,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",
+      "id": 8
+    }
+  ],
+  "users": [
+    {
+      "name": "Biplab Kumar Nayak",
+      "email": "biplab@gmail.com",
+      "password": "abc@123",
+      "id": 1
+    },
+    {
+      "name": "peeter",
+      "email": "peeter@gmail.com",
+      "password": "abc@123",
+      "id": 2
+    },
+    {
+      "name": "jasmin",
+      "email": "jasmin@gmail.com",
+      "password": "abc@123",
+      "id": 3
+    }
+  ],
+  "cart": [
+    {
+      "name": "Rolex Watch",
+      "price": 20000,
+      "color": "Gold",
+      "category": "Watch",
+      "description": "beautiful watch",
+      "image": "https://5.imimg.com/data5/RM/NV/XB/ANDROID-29418413/product-jpeg-500x500.jpg",
+      "quantity": 3,
+      "userId": 1,
+      "productId": 5,
+      "id": 1
+    }
+  ],
+  "orders": [
+    {
+      "email": "raja@gmail.com",
+      "mobile": 9999888876,
+      "address": "bhubaneswar,rasulgarh,751010",
+      "totalPrice": 250100,
+      "userId": 2,
+      "id": 1
+    },
+    {
+      "email": "veer@gmail.com",
+      "mobile": 9114141131,
+      "address": "delhi,noida,india",
+      "totalPrice": 450100,
+      "userId": 2,
+      "id": 2
+    }
+  ]
+}

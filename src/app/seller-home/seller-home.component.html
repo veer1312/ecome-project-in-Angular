@@ -1,0 +1,44 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous"> -->
+</head>
+<body>
+  <div class="product-list">
+    <h1 >All Product List</h1>
+    <p class="pmessage">{{showDeleteMessege}}</p>
+    <table>
+      <thead>
+        <tr>
+          <th>Image</th>
+          <th>Name</th>
+          <th>Price</th>
+          <th>Color</th>
+          <th>Category</th>
+          <th>Description</th>
+          <th>Action</th>
+          <th>Update</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr *ngFor="let items of productList">
+          <td><img src="{{items.image}}" alt=""></td>
+          <td>{{items.name}}</td>
+          <td>{{items.price}}</td>
+          <td>{{items.color}}</td>
+          <td>{{items.category}}</td>
+          <td>{{items.description}}</td>
+          <td><button class="btn btn-danger" style="cursor: pointer;"  (click)="deleteProduct(items.id)">Delete</button></td>
+          <td><button class="btn btn-warning"><a routerLink="/seller-update-product/{{items.id}}">Edit</a></button></td>
+
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</body>
+</html>

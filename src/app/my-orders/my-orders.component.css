@@ -1,0 +1,9 @@
+.my-orders h1{
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.my-orders .order-img img{
+    width: 50px; 
+   /* it will fix the height autometically */
+}

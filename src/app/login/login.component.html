@@ -1,0 +1,20 @@
+<div class="seller-auth">
+
+  <div class="sighup">
+    <h1>Login</h1>
+    <form #userLogin="ngForm" class="common-form" (ngSubmit)="userlogin(userLogin.value)" >
+
+
+      <input class="form-input" name="email" ngModel type="email" placeholder="enter email">
+
+      <input class="form-input" name="password" ngModel type="password" placeholder="enter password">
+
+
+      <button type="submit" class="form-button">Login</button>
+
+    </form>
+
+  </div>
+</div>
+
+

@@ -1,0 +1,50 @@
+<ngb-carousel *ngIf="popularProducts">
+	<ng-template *ngFor="let items of popularProducts" ngbSlide>
+		<div class="picsum-img-wrapper">
+
+      <a routerLink="/details/{{items.id}}"> <img class="product-header-image" src="{{items.image}}" alt="Random first slide" />
+      </a>
+
+		</div>
+		<div class="carousel-caption">
+			<h3>{{items.name}}</h3>
+			<p>{{items.description}}</p>
+		</div>
+	</ng-template>
+</ngb-carousel>
+
+<div class="product-list-wrapper">
+  <h4>Trendy products</h4>
+  <div class="row">
+      <!--col-sm-2, it will divide the screen into 4 parts (25% 25% 25% 25%) -->
+    <div class="col-sm-2" *ngFor="let item of trendyProducts">
+      <div class="product_item">
+        <a routerLink="/details/{{item.id}}"><img src="{{item.image}}"></a>
+
+      </div>
+
+      <div class="all-items">
+
+        <div class="product-details">
+          <!-- name description price here -->
+          <a routerLink="/details/{{item.id}}"><h6 class="name-head" style="font-size: larger;">{{item.name}}</h6></a>
+                </div>
+                <div class="product-price">
+                  <h6 >{{item.price}}</h6>
+                </div>
+                <div class="product-color">
+                  <h6 >{{item.color}}</h6>
+                </div>
+
+              </div>
+
+              <div class="product-footer">
+                <a  routerLink="/details/{{item.id}}">view Details</a>
+                <br>
+                <a href="">Add to cart</a>
+              </div>
+
+      </div>
+
+  </div>
+</div>
